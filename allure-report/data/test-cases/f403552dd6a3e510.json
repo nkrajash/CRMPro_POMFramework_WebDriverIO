@@ -1,0 +1,58 @@
+{
+  "uid" : "f403552dd6a3e510",
+  "name" : "click on Tasks Link",
+  "fullName" : "CRMPro Home page feature tests.click on Tasks Link",
+  "historyId" : "2e8ce0a28847759c302caebd8da1144b",
+  "time" : {
+    "start" : 1630850009319,
+    "stop" : 1630850009322,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+  "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at Browser.protocolCommand (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:34)\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\home.test.js:47:17)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Tasks Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f403552dd6a3e510.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

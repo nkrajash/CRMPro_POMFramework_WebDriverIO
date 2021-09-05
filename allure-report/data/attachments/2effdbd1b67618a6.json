@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'Home')]\"}\n  (Session info: chrome=93.0.4577.63)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0048A2D3+2663123]\n\tOrdinal0 [0x0041A491+2204817]\n\tOrdinal0 [0x00302118+1057048]\n\tOrdinal0 [0x0032CA6B+1231467]\n\tOrdinal0 [0x00356A02+1403394]\n\tOrdinal0 [0x00345A0A+1333770]\n\tOrdinal0 [0x00354D8F+1396111]\n\tOrdinal0 [0x0034589B+1333403]\n\tOrdinal0 [0x00321F74+1187700]\n\tOrdinal0 [0x00322DC9+1191369]\n\tGetHandleVerifier [0x006230D6+1610054]\n\tGetHandleVerifier [0x006CB53B+2299307]\n\tGetHandleVerifier [0x00518DA9+519705]\n\tGetHandleVerifier [0x00517759+513993]\n\tOrdinal0 [0x0042112D+2232621]\n\tOrdinal0 [0x004255F8+2250232]\n\tOrdinal0 [0x00425732+2250546]\n\tOrdinal0 [0x0042E591+2286993]\n\tBaseThreadInitThunk [0x7652FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n"
+}

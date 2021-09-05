@@ -1,0 +1,66 @@
+{
+  "uid" : "3cf117adf2955a0",
+  "name" : "click on Contacts Link",
+  "fullName" : "CRMPro Home page feature tests.click on Contacts Link",
+  "historyId" : "44b4a87ccb0032022199dd4640012f8",
+  "time" : {
+    "start" : 1630851412504,
+    "stop" : 1630851412504,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Contacts Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d5567364ed8e5c0",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630835890319,
+        "stop" : 1630835890319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4ceec92a1a70820",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630835256467,
+        "stop" : 1630835256467,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cf117adf2955a0.json",
+  "parameterValues" : [ ]
+}

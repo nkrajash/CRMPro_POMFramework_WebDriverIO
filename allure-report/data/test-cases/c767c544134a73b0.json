@@ -1,0 +1,108 @@
+{
+  "uid" : "c767c544134a73b0",
+  "name" : "verify login page with valid title",
+  "fullName" : "CRMPro Login page feature tests.verify login page with valid title",
+  "historyId" : "c33657a2b10fa6f03a1382f98e5976a",
+  "time" : {
+    "start" : 1630788447056,
+    "stop" : 1630788455155,
+    "duration" : 8099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1630788447186,
+        "stop" : 1630788455029,
+        "duration" : 7843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69ea9a87c1791160",
+        "name" : "Request",
+        "source" : "69ea9a87c1791160.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630788455033,
+        "stop" : 1630788455150,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f79afb81c706835f",
+        "name" : "Response",
+        "source" : "f79afb81c706835f.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login page with valid title"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c767c544134a73b0.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

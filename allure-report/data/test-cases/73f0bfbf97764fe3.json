@@ -1,0 +1,46 @@
+{
+  "uid" : "73f0bfbf97764fe3",
+  "name" : "verify login with newly created credentials",
+  "fullName" : "CRMPro SignUp page feature tests.verify login with newly created credentials",
+  "historyId" : "130d5dbe5b3b05d7b78dfd1cb5984057",
+  "time" : {
+    "start" : 1630860098489,
+    "stop" : 1630860098489,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login with newly created credentials"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73f0bfbf97764fe3.json",
+  "parameterValues" : [ ]
+}

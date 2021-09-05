@@ -1,0 +1,129 @@
+{
+  "uid" : "8cdd490f92ccb9c",
+  "name" : "verify signUp page with valid title",
+  "fullName" : "CRMPro SignUp page feature tests.verify signUp page with valid title",
+  "historyId" : "2f93115831b22d2267b0c0762376852e",
+  "time" : {
+    "start" : 1630857938594,
+    "stop" : 1630857948596,
+    "duration" : 10002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1630857939878,
+        "stop" : 1630857948477,
+        "duration" : 8599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bdec1baa435fc12",
+        "name" : "Request",
+        "source" : "6bdec1baa435fc12.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630857948480,
+        "stop" : 1630857948536,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c480bd7079f38fe",
+        "name" : "Response",
+        "source" : "3c480bd7079f38fe.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630857948538,
+        "stop" : 1630857948554,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "948fbfe8dce92b32",
+        "name" : "Response",
+        "source" : "948fbfe8dce92b32.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signUp page with valid title"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cdd490f92ccb9c.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

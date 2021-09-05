@@ -1,0 +1,48 @@
+{
+  "uid" : "a27d30ffecd90a8b",
+  "name" : "click on Tasks Link",
+  "fullName" : "CRMPro Home page feature tests.click on Tasks Link",
+  "historyId" : "ce61d73bd027769e5fb8cdd2b480165f",
+  "time" : {
+    "start" : 1630851412504,
+    "stop" : 1630851412504,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Tasks Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a27d30ffecd90a8b.json",
+  "parameterValues" : [ ]
+}

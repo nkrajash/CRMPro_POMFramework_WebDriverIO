@@ -1,0 +1,46 @@
+{
+  "uid" : "13be2231565dd236",
+  "name" : "click on log out",
+  "fullName" : "CRMPro SignUp page feature tests.click on log out",
+  "historyId" : "bd2d4cd4404a7e34d7dd6784bf85f550",
+  "time" : {
+    "start" : 1630860291414,
+    "stop" : 1630860291414,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on log out"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13be2231565dd236.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "3d2159c2977172b0",
+  "name" : "verify signUp page entries with valid entries",
+  "fullName" : "CRMPro SignUp page feature tests.verify signUp page entries with valid entries",
+  "historyId" : "dea2c1bb79ef139c05ca72e085481385",
+  "time" : {
+    "start" : 1630861339262,
+    "stop" : 1630861339262,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signUp page entries with valid entries"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c23bfee1cd1bb6b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630861158735,
+        "stop" : 1630861158735,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cce9d62bedf6487d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630860789755,
+        "stop" : 1630860789755,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "293c6c8b46cd1c5a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630860705200,
+        "stop" : 1630860705200,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d2159c2977172b0.json",
+  "parameterValues" : [ ]
+}

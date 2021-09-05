@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td[contains(text(),'User:')]\"}\n  (Session info: chrome=93.0.4577.63)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x010EA2D3+2663123]\n\tOrdinal0 [0x0107A491+2204817]\n\tOrdinal0 [0x00F62118+1057048]\n\tOrdinal0 [0x00F8CA6B+1231467]\n\tOrdinal0 [0x00FB6A02+1403394]\n\tOrdinal0 [0x00FA5A0A+1333770]\n\tOrdinal0 [0x00FB4D8F+1396111]\n\tOrdinal0 [0x00FA589B+1333403]\n\tOrdinal0 [0x00F81F74+1187700]\n\tOrdinal0 [0x00F82DC9+1191369]\n\tGetHandleVerifier [0x012830D6+1610054]\n\tGetHandleVerifier [0x0132B53B+2299307]\n\tGetHandleVerifier [0x01178DA9+519705]\n\tGetHandleVerifier [0x01177759+513993]\n\tOrdinal0 [0x0108112D+2232621]\n\tOrdinal0 [0x010855F8+2250232]\n\tOrdinal0 [0x01085732+2250546]\n\tOrdinal0 [0x0108E591+2286993]\n\tBaseThreadInitThunk [0x7652FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n"
+}

@@ -1,0 +1,386 @@
+{
+  "uid" : "5f27e658c576e72e",
+  "name" : "verify login page with valid title",
+  "fullName" : "CRMPro Login page feature tests.verify login page with valid title",
+  "historyId" : "c33657a2b10fa6f03a1382f98e5976a",
+  "time" : {
+    "start" : 1630855540639,
+    "stop" : 1630855547839,
+    "duration" : 7200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1630855541767,
+        "stop" : 1630855547736,
+        "duration" : 5969
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7ed36ad2ce5a7cb",
+        "name" : "Request",
+        "source" : "b7ed36ad2ce5a7cb.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630855547743,
+        "stop" : 1630855547784,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc1a1b3e90b1af2a",
+        "name" : "Response",
+        "source" : "fc1a1b3e90b1af2a.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630855547785,
+        "stop" : 1630855547816,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f29db85ae35c8a5",
+        "name" : "Response",
+        "source" : "9f29db85ae35c8a5.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login page with valid title"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1888e663e7dd70a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853578259,
+        "stop" : 1630853584993,
+        "duration" : 6734
+      }
+    }, {
+      "uid" : "a765fc3fb4f3976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630852308544,
+        "stop" : 1630852315921,
+        "duration" : 7377
+      }
+    }, {
+      "uid" : "eaf9315ef69a5ae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630852233402,
+        "stop" : 1630852241026,
+        "duration" : 7624
+      }
+    }, {
+      "uid" : "118dc1b83c6a1aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630835202583,
+        "stop" : 1630835223690,
+        "duration" : 21107
+      }
+    }, {
+      "uid" : "58ebe6f1863ad22e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790734801,
+        "stop" : 1630790742366,
+        "duration" : 7565
+      }
+    }, {
+      "uid" : "4425579a5dc05803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790668881,
+        "stop" : 1630790676776,
+        "duration" : 7895
+      }
+    }, {
+      "uid" : "8f4372c8a3490848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790596394,
+        "stop" : 1630790605904,
+        "duration" : 9510
+      }
+    }, {
+      "uid" : "f8f8d818e7456f2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790416253,
+        "stop" : 1630790425201,
+        "duration" : 8948
+      }
+    }, {
+      "uid" : "6aaabf4d97e22e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790314502,
+        "stop" : 1630790324468,
+        "duration" : 9966
+      }
+    }, {
+      "uid" : "a3f688db63e80f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790244170,
+        "stop" : 1630790252000,
+        "duration" : 7830
+      }
+    }, {
+      "uid" : "7d5d77404b163790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790155973,
+        "stop" : 1630790166796,
+        "duration" : 10823
+      }
+    }, {
+      "uid" : "cbae291a58974e68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630788872801,
+        "stop" : 1630788878922,
+        "duration" : 6121
+      }
+    }, {
+      "uid" : "c767c544134a73b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630788447056,
+        "stop" : 1630788455155,
+        "duration" : 8099
+      }
+    }, {
+      "uid" : "5fdc5655e5341cb9",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630788332245,
+        "stop" : 1630788357770,
+        "duration" : 25525
+      }
+    }, {
+      "uid" : "616340fe92926186",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630788204630,
+        "stop" : 1630788226125,
+        "duration" : 21495
+      }
+    }, {
+      "uid" : "95823222883c1b37",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787968256,
+        "stop" : 1630787978802,
+        "duration" : 10546
+      }
+    }, {
+      "uid" : "cb175a23c15950a5",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787932561,
+        "stop" : 1630787941351,
+        "duration" : 8790
+      }
+    }, {
+      "uid" : "d70be02f1e1ee2be",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787682761,
+        "stop" : 1630787689228,
+        "duration" : 6467
+      }
+    }, {
+      "uid" : "5ad1671800c9e6ad",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787578463,
+        "stop" : 1630787585055,
+        "duration" : 6592
+      }
+    }, {
+      "uid" : "a5ae2b609421a833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787490988,
+        "stop" : 1630787498460,
+        "duration" : 7472
+      }
+    }, {
+      "uid" : "5633c9641517d5a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787438040,
+        "stop" : 1630787443839,
+        "duration" : 5799
+      }
+    }, {
+      "uid" : "3ee7a65ce0ef1c63",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787355725,
+        "stop" : 1630787362553,
+        "duration" : 6828
+      }
+    }, {
+      "uid" : "ad62c07475dfa13b",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787114371,
+        "stop" : 1630787120927,
+        "duration" : 6556
+      }
+    }, {
+      "uid" : "7c1239c84d037203",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787027579,
+        "stop" : 1630787034538,
+        "duration" : 6959
+      }
+    }, {
+      "uid" : "82ddee96027861b6",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630786991160,
+        "stop" : 1630786997681,
+        "duration" : 6521
+      }
+    }, {
+      "uid" : "f7f69c8136ca28a6",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630786686919,
+        "stop" : 1630786695065,
+        "duration" : 8146
+      }
+    }, {
+      "uid" : "d39fec4aadb0149d",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630786325534,
+        "stop" : 1630786333900,
+        "duration" : 8366
+      }
+    }, {
+      "uid" : "8babdbd40b5e45da",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630786159865,
+        "stop" : 1630786168261,
+        "duration" : 8396
+      }
+    }, {
+      "uid" : "b18dfe50d50b177c",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630786007216,
+        "stop" : 1630786014577,
+        "duration" : 7361
+      }
+    }, {
+      "uid" : "3d20ed5972d0e25b",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630785693147,
+        "stop" : 1630785707014,
+        "duration" : 13867
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f27e658c576e72e.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

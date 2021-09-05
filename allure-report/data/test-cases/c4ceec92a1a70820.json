@@ -1,0 +1,46 @@
+{
+  "uid" : "c4ceec92a1a70820",
+  "name" : "click on Contacts Link",
+  "fullName" : "CRMPro Home page feature tests.click on Contacts Link",
+  "historyId" : "44b4a87ccb0032022199dd4640012f8",
+  "time" : {
+    "start" : 1630835256467,
+    "stop" : 1630835256467,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Contacts Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4ceec92a1a70820.json",
+  "parameterValues" : [ ]
+}

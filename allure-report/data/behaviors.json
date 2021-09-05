@@ -1,0 +1,343 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "verify home page with valid header text",
+    "uid" : "d6066f516d4dab3e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630837448840,
+      "stop" : 1630837448840,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on Home Link",
+    "uid" : "82d730bfc1272aa9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630847423325,
+      "stop" : 1630847423325,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verify home page logged in Account name",
+    "uid" : "d68da7b2faee8d87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630850803131,
+      "stop" : 1630850803131,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on Deals Link",
+    "uid" : "7f1d4a0f2fbf5c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630851412504,
+      "stop" : 1630851412504,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on Tasks Link",
+    "uid" : "a27d30ffecd90a8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630851412504,
+      "stop" : 1630851412504,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on Contacts Link",
+    "uid" : "3cf117adf2955a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630851412504,
+      "stop" : 1630851412504,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verify login page with valid title",
+    "uid" : "5f27e658c576e72e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855540639,
+      "stop" : 1630855547839,
+      "duration" : 7200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "is signUp link exists or not",
+    "uid" : "7083fa1ae366a5e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855547841,
+      "stop" : 1630855548940,
+      "duration" : 1099
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify login with valid credentials",
+    "uid" : "bbceac934492a861",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855548940,
+      "stop" : 1630855563170,
+      "duration" : 14230
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on log out",
+    "uid" : "ba83f816be74a1e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855563171,
+      "stop" : 1630855568983,
+      "duration" : 5812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify home page with valid title",
+    "uid" : "1759e5b9e3f7c055",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855908715,
+      "stop" : 1630855926826,
+      "duration" : 18111
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify home page with valid header text",
+    "uid" : "ee1b71faaced12a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855926827,
+      "stop" : 1630855927091,
+      "duration" : 264
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify home page logged in Account name",
+    "uid" : "44d218ebc7fff5e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855927091,
+      "stop" : 1630855927248,
+      "duration" : 157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on Home Link",
+    "uid" : "683e51c2f39c211c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855927249,
+      "stop" : 1630855928654,
+      "duration" : 1405
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on Contacts Link",
+    "uid" : "3ac442709763aa53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855928655,
+      "stop" : 1630855930450,
+      "duration" : 1795
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on Deals Link",
+    "uid" : "3f582df0d307804b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855930450,
+      "stop" : 1630855931834,
+      "duration" : 1384
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on Tasks Link",
+    "uid" : "82f9d1dc5b451ada",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855931835,
+      "stop" : 1630855933471,
+      "duration" : 1636
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on log out",
+    "uid" : "9e53424a10da39a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630855933471,
+      "stop" : 1630855939926,
+      "duration" : 6455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify signUp page entries with valid entries",
+    "uid" : "117b1a2edc0ea713",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630860585863,
+      "stop" : 1630860604534,
+      "duration" : 18671
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify login with newly created credentials",
+    "uid" : "4bd820ba9f5556e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630860604535,
+      "stop" : 1630860604535,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on log out",
+    "uid" : "57fcafc4292a0792",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630860604535,
+      "stop" : 1630860604535,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verify signUp page with valid title",
+    "uid" : "e889924d1d127167",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630861158734,
+      "stop" : 1630861158734,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verify signUp page with valid title",
+    "uid" : "8b3431b5314d34c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630861333558,
+      "stop" : 1630861339260,
+      "duration" : 5702
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "verify signUp page entries with valid entries",
+    "uid" : "3d2159c2977172b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1630861339262,
+      "stop" : 1630861339262,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verify login with newly created credentials",
+    "uid" : "fa20b90ac09602c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630861339262,
+      "stop" : 1630861351339,
+      "duration" : 12077
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  }, {
+    "name" : "click on log out",
+    "uid" : "f1c30a867bc7db25",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630861351340,
+      "stop" : 1630861355333,
+      "duration" : 3993
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-93.0.4577.63" ]
+  } ]
+}

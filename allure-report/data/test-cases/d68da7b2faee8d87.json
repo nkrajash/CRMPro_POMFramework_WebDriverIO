@@ -1,0 +1,84 @@
+{
+  "uid" : "d68da7b2faee8d87",
+  "name" : "verify home page logged in Account name",
+  "fullName" : "CRMPro Home page feature tests.verify home page logged in Account name",
+  "historyId" : "e15cff9d743d9af5d7482d852bd53e0a",
+  "time" : {
+    "start" : 1630850803131,
+    "stop" : 1630850803131,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify home page logged in Account name"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e005eb0e155f4e5",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630838901280,
+        "stop" : 1630838901280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f094aaaea04f1821",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630838849208,
+        "stop" : 1630838849208,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f001d3cb59e2d3b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630838749116,
+        "stop" : 1630838749117,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f44a291ec9e560e1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1630838448778,
+        "stop" : 1630838448778,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d68da7b2faee8d87.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,179 @@
+{
+  "uid" : "8b3431b5314d34c8",
+  "name" : "verify signUp page with valid title",
+  "fullName" : "CRMPro SignUp page feature tests.verify signUp page with valid title",
+  "historyId" : "2f93115831b22d2267b0c0762376852e",
+  "time" : {
+    "start" : 1630861333558,
+    "stop" : 1630861339260,
+    "duration" : 5702
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1630861333629,
+        "stop" : 1630861339217,
+        "duration" : 5588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24a54d6f8963bbe8",
+        "name" : "Request",
+        "source" : "24a54d6f8963bbe8.json",
+        "type" : "application/json",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630861339221,
+        "stop" : 1630861339242,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cef73c738dc02c29",
+        "name" : "Response",
+        "source" : "cef73c738dc02c29.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1630861339243,
+        "stop" : 1630861339255,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7c8139b718893f9",
+        "name" : "Response",
+        "source" : "b7c8139b718893f9.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signUp page with valid title"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b509cf976c672f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630860580684,
+        "stop" : 1630860585861,
+        "duration" : 5177
+      }
+    }, {
+      "uid" : "c2c36347f69b044f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630860362550,
+        "stop" : 1630860369202,
+        "duration" : 6652
+      }
+    }, {
+      "uid" : "8588ef2855ba7217",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630860263428,
+        "stop" : 1630860270973,
+        "duration" : 7545
+      }
+    }, {
+      "uid" : "5b64c6fd89ce4a37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630860058209,
+        "stop" : 1630860071288,
+        "duration" : 13079
+      }
+    }, {
+      "uid" : "f1a80f44aefc85df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630858532421,
+        "stop" : 1630858539178,
+        "duration" : 6757
+      }
+    }, {
+      "uid" : "8cdd490f92ccb9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630857938594,
+        "stop" : 1630857948596,
+        "duration" : 10002
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b3431b5314d34c8.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

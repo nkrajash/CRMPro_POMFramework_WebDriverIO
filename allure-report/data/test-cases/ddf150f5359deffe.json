@@ -1,0 +1,97 @@
+{
+  "uid" : "ddf150f5359deffe",
+  "name" : "click on log out",
+  "fullName" : "CRMPro SignUp page feature tests.click on log out",
+  "historyId" : "597f4bb560a716b1ab500878dcacd65b",
+  "time" : {
+    "start" : 1630860716013,
+    "stop" : 1630860716286,
+    "duration" : 273
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such frame\n                  (Session info: chrome=93.0.4577.63)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00FCA2D3+2663123]\n                \tOrdinal0 [0x00F5A491+2204817]\n                \tOrdinal0 [0x00E41FE0+1056736]\n                \tOrdinal0 [0x00E45243+1069635]\n                \tOrdinal0 [0x00E95FBA+1400762]\n                \tOrdinal0 [0x00E859D3+1333715]\n                \tOrdinal0 [0x00E94D8F+1396111]\n                \tOrdinal0 [0x00E8589B+1333403]\n                \tOrdinal0 [0x00E61F74+1187700]\n                \tOrdinal0 [0x00E62DC9+1191369]\n                \tGetHandleVerifier [0x011630D6+1610054]\n                \tGetHandleVerifier [0x0120B53B+2299307]\n                \tGetHandleVerifier [0x01058DA9+519705]\n                \tGetHandleVerifier [0x01057759+513993]\n                \tOrdinal0 [0x00F6112D+2232621]\n                \tOrdinal0 [0x00F655F8+2250232]\n                \tOrdinal0 [0x00F65732+2250546]\n                \tOrdinal0 [0x00F6E591+2286993]\n                \tBaseThreadInitThunk [0x7652FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at elementUtil.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\utils\\elementUtil.js:31:17)\n                    at homePage.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\home.page.js:44:21)\n                    at homePage.logout (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\home.page.js:80:14)\n                    at loginPage.logout (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\login.page.js:42:17)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\signUp.test.js:49:19)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such frame\n                  (Session info: chrome=93.0.4577.63)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00FCA2D3+2663123]\n                \tOrdinal0 [0x00F5A491+2204817]\n                \tOrdinal0 [0x00E41FE0+1056736]\n                \tOrdinal0 [0x00E45243+1069635]\n                \tOrdinal0 [0x00E95FBA+1400762]\n                \tOrdinal0 [0x00E859D3+1333715]\n                \tOrdinal0 [0x00E94D8F+1396111]\n                \tOrdinal0 [0x00E8589B+1333403]\n                \tOrdinal0 [0x00E61F74+1187700]\n                \tOrdinal0 [0x00E62DC9+1191369]\n                \tGetHandleVerifier [0x011630D6+1610054]\n                \tGetHandleVerifier [0x0120B53B+2299307]\n                \tGetHandleVerifier [0x01058DA9+519705]\n                \tGetHandleVerifier [0x01057759+513993]\n                \tOrdinal0 [0x00F6112D+2232621]\n                \tOrdinal0 [0x00F655F8+2250232]\n                \tOrdinal0 [0x00F65732+2250546]\n                \tOrdinal0 [0x00F6E591+2286993]\n                \tBaseThreadInitThunk [0x7652FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at elementUtil.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\utils\\elementUtil.js:31:17)\n                    at homePage.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\home.page.js:44:21)\n                    at homePage.logout (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\home.page.js:80:14)\n                    at loginPage.logout (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\pageobjects\\login.page.js:42:17)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\signUp.test.js:49:19)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630860716018,
+        "stop" : 1630860716143,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f263e25bba08c266",
+        "name" : "Request",
+        "source" : "f263e25bba08c266.json",
+        "type" : "application/json",
+        "size" : 13
+      }, {
+        "uid" : "5202506d45f210bb",
+        "name" : "Response",
+        "source" : "5202506d45f210bb.json",
+        "type" : "application/json",
+        "size" : 1003
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on log out"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro SignUp page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddf150f5359deffe.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

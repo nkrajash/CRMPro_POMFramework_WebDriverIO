@@ -1,0 +1,147 @@
+{
+  "uid" : "131c73dc5d1445f0",
+  "name" : "is signUp link exists or not",
+  "fullName" : "CRMPro Login page feature tests.is signUp link exists or not",
+  "historyId" : "dd2dc2a851706f5137839d5097bd5734",
+  "time" : {
+    "start" : 1630788455156,
+    "stop" : 1630788455916,
+    "duration" : 760
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630788455162,
+        "stop" : 1630788455645,
+        "duration" : 483
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ac218e717b6229f",
+        "name" : "Request",
+        "source" : "8ac218e717b6229f.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "3ddda32327c4c6df",
+        "name" : "Response",
+        "source" : "3ddda32327c4c6df.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630788455667,
+        "stop" : 1630788455847,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0654b82583b41ab",
+        "name" : "Request",
+        "source" : "a0654b82583b41ab.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "dc208e61391cc23a",
+        "name" : "Response",
+        "source" : "dc208e61391cc23a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630788455849,
+        "stop" : 1630788455913,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9989689fd307652a",
+        "name" : "Request",
+        "source" : "9989689fd307652a.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "6e54443123c9043c",
+        "name" : "Response",
+        "source" : "6e54443123c9043c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "is signUp link exists or not"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "131c73dc5d1445f0.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

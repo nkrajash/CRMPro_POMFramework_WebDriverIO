@@ -1,0 +1,276 @@
+{
+  "uid" : "683e51c2f39c211c",
+  "name" : "click on Home Link",
+  "fullName" : "CRMPro Home page feature tests.click on Home Link",
+  "historyId" : "67520385aff093e152f24c1b4c017f36",
+  "time" : {
+    "start" : 1630855927249,
+    "stop" : 1630855928654,
+    "duration" : 1405
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630855927251,
+        "stop" : 1630855927274,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7119772db6d826a3",
+        "name" : "Request",
+        "source" : "7119772db6d826a3.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855927274,
+        "stop" : 1630855927299,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17faf76369edba94",
+        "name" : "Request",
+        "source" : "17faf76369edba94.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "380f112893ef0893",
+        "name" : "Response",
+        "source" : "380f112893ef0893.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855927308,
+        "stop" : 1630855927325,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bf1ae8cfabe7560",
+        "name" : "Request",
+        "source" : "5bf1ae8cfabe7560.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "4447ffc6df7d2bec",
+        "name" : "Response",
+        "source" : "4447ffc6df7d2bec.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/4ad19106-f074-4dfa-882c-0f0e59887730/click",
+      "time" : {
+        "start" : 1630855927325,
+        "stop" : 1630855928638,
+        "duration" : 1313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/frame/parent",
+      "time" : {
+        "start" : 1630855928638,
+        "stop" : 1630855928654,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Home Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8709ab55891ae70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630855609796,
+        "stop" : 1630855611962,
+        "duration" : 2166
+      }
+    }, {
+      "uid" : "747ce97de1dd9d9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853726507,
+        "stop" : 1630853727854,
+        "duration" : 1347
+      }
+    }, {
+      "uid" : "f51d7decc3b82ae3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853645782,
+        "stop" : 1630853647255,
+        "duration" : 1473
+      }
+    }, {
+      "uid" : "4b72ba7e95972ad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851491667,
+        "stop" : 1630851493166,
+        "duration" : 1499
+      }
+    }, {
+      "uid" : "8948264a2a4b3453",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851410886,
+        "stop" : 1630851412503,
+        "duration" : 1617
+      }
+    }, {
+      "uid" : "99ff356810bf9eba",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),'Home')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630851321863,
+        "stop" : 1630851332074,
+        "duration" : 10211
+      }
+    }, {
+      "uid" : "6f717df01cac87e5",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),'Home')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630851249871,
+        "stop" : 1630851260059,
+        "duration" : 10188
+      }
+    }, {
+      "uid" : "f8f6dd924098176",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),'Home')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630851112850,
+        "stop" : 1630851122969,
+        "duration" : 10119
+      }
+    }, {
+      "uid" : "6cb804b6f6a9a6a4",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),'Home')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630850803132,
+        "stop" : 1630850813280,
+        "duration" : 10148
+      }
+    }, {
+      "uid" : "5e262d4210b79f2",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1630850424768,
+        "stop" : 1630850424880,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "3df0fb4ca0254086",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1630850009304,
+        "stop" : 1630850009307,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "3f43062b2c106b8c",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),'Home')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630848406387,
+        "stop" : 1630848416507,
+        "duration" : 10120
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "683e51c2f39c211c.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

@@ -1,0 +1,345 @@
+{
+  "uid" : "44d218ebc7fff5e2",
+  "name" : "verify home page logged in Account name",
+  "fullName" : "CRMPro Home page feature tests.verify home page logged in Account name",
+  "historyId" : "440ba2a245a2408e3667fc4454d29dae",
+  "time" : {
+    "start" : 1630855927091,
+    "stop" : 1630855927248,
+    "duration" : 157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630855927093,
+        "stop" : 1630855927158,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b620bee3f988ab84",
+        "name" : "Request",
+        "source" : "b620bee3f988ab84.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855927158,
+        "stop" : 1630855927191,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f607d1edbc6072b9",
+        "name" : "Request",
+        "source" : "f607d1edbc6072b9.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "44eba512792baca",
+        "name" : "Response",
+        "source" : "44eba512792baca.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855927199,
+        "stop" : 1630855927215,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3339720936a2ac7",
+        "name" : "Request",
+        "source" : "d3339720936a2ac7.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "f377ef0384da5df1",
+        "name" : "Response",
+        "source" : "f377ef0384da5df1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/bd1837d0-9949-4243-9251-9052d8bfb0c4/text",
+      "time" : {
+        "start" : 1630855927216,
+        "stop" : 1630855927239,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "917097dcfdea20b7",
+        "name" : "Response",
+        "source" : "917097dcfdea20b7.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/frame/parent",
+      "time" : {
+        "start" : 1630855927240,
+        "stop" : 1630855927247,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify home page logged in Account name"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a61728eb230c18d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630855609684,
+        "stop" : 1630855609796,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "11b260c4ad42ec02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853726431,
+        "stop" : 1630853726507,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "7dd2285eb3ec7449",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853645697,
+        "stop" : 1630853645782,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "58dd5ba70a2dd5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851491545,
+        "stop" : 1630851491667,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "8c47a9dbdefff781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851410737,
+        "stop" : 1630851410886,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "409e51eea9cdd3cb",
+      "status" : "broken",
+      "statusDetails" : "Assignment to constant variable.",
+      "time" : {
+        "start" : 1630851321746,
+        "stop" : 1630851321862,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "5cf34cde9697b6ca",
+      "status" : "broken",
+      "statusDetails" : "accname.split(...).trim is not a function",
+      "time" : {
+        "start" : 1630851249488,
+        "stop" : 1630851249870,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "2c723688937e7317",
+      "status" : "broken",
+      "statusDetails" : "elementUtil.dogetText(...).split(...).trim is not a function",
+      "time" : {
+        "start" : 1630851112677,
+        "stop" : 1630851112849,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "d3d5480920739b55",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630850414593,
+        "stop" : 1630850424766,
+        "duration" : 10173
+      }
+    }, {
+      "uid" : "f376ca35a1174e44",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1630850009294,
+        "stop" : 1630850009303,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "5e5cc64f702be6dd",
+      "status" : "failed",
+      "statusDetails" : "Home page logged in acc name is invalid: expected true to equal false      \n                      actual expected\n                      \n                      truefalse\n                      ",
+      "time" : {
+        "start" : 1630848405995,
+        "stop" : 1630848406387,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "f5afed8f2844e071",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 30000ms",
+      "time" : {
+        "start" : 1630847392319,
+        "stop" : 1630847423323,
+        "duration" : 31004
+      }
+    }, {
+      "uid" : "e1d371f69476ce5d",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630847204839,
+        "stop" : 1630847214898,
+        "duration" : 10059
+      }
+    }, {
+      "uid" : "54ebfde5ddd995a8",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630847028703,
+        "stop" : 1630847038767,
+        "duration" : 10064
+      }
+    }, {
+      "uid" : "5e534b95e2b61524",
+      "status" : "broken",
+      "statusDetails" : "this.accountName.doisDisplayed is not a function",
+      "time" : {
+        "start" : 1630845156882,
+        "stop" : 1630845156958,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "fa0e17fcfd2312fb",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//tr/td[contains(text(),'User:')]\" because element wasn't found",
+      "time" : {
+        "start" : 1630844353958,
+        "stop" : 1630844364098,
+        "duration" : 10140
+      }
+    }, {
+      "uid" : "fd52a6f88bc82b35",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630837448841,
+        "stop" : 1630837458944,
+        "duration" : 10103
+      }
+    }, {
+      "uid" : "7f66d2e69eec20cc",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630837395693,
+        "stop" : 1630837405766,
+        "duration" : 10073
+      }
+    }, {
+      "uid" : "721ff8a371f89367",
+      "status" : "broken",
+      "statusDetails" : "element (\"//tr/td[contains(text(),'User:')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630836484775,
+        "stop" : 1630836494845,
+        "duration" : 10070
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44d218ebc7fff5e2.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

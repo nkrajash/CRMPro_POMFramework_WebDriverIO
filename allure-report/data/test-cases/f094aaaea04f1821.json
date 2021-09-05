@@ -1,0 +1,46 @@
+{
+  "uid" : "f094aaaea04f1821",
+  "name" : "verify home page logged in Account name",
+  "fullName" : "CRMPro Home page feature tests.verify home page logged in Account name",
+  "historyId" : "e15cff9d743d9af5d7482d852bd53e0a",
+  "time" : {
+    "start" : 1630838849208,
+    "stop" : 1630838849208,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify home page logged in Account name"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f094aaaea04f1821.json",
+  "parameterValues" : [ ]
+}

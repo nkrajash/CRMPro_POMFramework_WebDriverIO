@@ -1,0 +1,384 @@
+{
+  "uid" : "ee1b71faaced12a9",
+  "name" : "verify home page with valid header text",
+  "fullName" : "CRMPro Home page feature tests.verify home page with valid header text",
+  "historyId" : "6a397cd23d9e8e9cf086f45ed47c8983",
+  "time" : {
+    "start" : 1630855926827,
+    "stop" : 1630855927091,
+    "duration" : 264
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630855926831,
+        "stop" : 1630855926904,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "951c7dfdddfeef81",
+        "name" : "Request",
+        "source" : "951c7dfdddfeef81.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855926904,
+        "stop" : 1630855926931,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d29bb4dbdbc1718",
+        "name" : "Request",
+        "source" : "3d29bb4dbdbc1718.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "6c88bbdcfedee489",
+        "name" : "Response",
+        "source" : "6c88bbdcfedee489.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855926936,
+        "stop" : 1630855927041,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad61b42ddfda73a1",
+        "name" : "Request",
+        "source" : "ad61b42ddfda73a1.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "26317de80f155c59",
+        "name" : "Response",
+        "source" : "26317de80f155c59.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/da1ea585-657c-40fe-b9ae-7ddf751a7fd8/text",
+      "time" : {
+        "start" : 1630855927041,
+        "stop" : 1630855927083,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbe7759eeb20fb7",
+        "name" : "Response",
+        "source" : "dbe7759eeb20fb7.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/frame/parent",
+      "time" : {
+        "start" : 1630855927084,
+        "stop" : 1630855927090,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify home page with valid header text"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c809720628e48e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630855609439,
+        "stop" : 1630855609684,
+        "duration" : 245
+      }
+    }, {
+      "uid" : "3b353748e2655d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853726327,
+        "stop" : 1630853726431,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "a9c552565e921165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853645427,
+        "stop" : 1630853645697,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "d0b8ac8cbdde9a4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851491414,
+        "stop" : 1630851491544,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "f793341ad7aa56a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851410386,
+        "stop" : 1630851410737,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "148f8650e050d3a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851321418,
+        "stop" : 1630851321746,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "25df7125a86b314b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851249154,
+        "stop" : 1630851249488,
+        "duration" : 334
+      }
+    }, {
+      "uid" : "8c3c70d4ed5e5731",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851112328,
+        "stop" : 1630851112676,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "dbf59ecd7c03c4d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630851000618,
+        "stop" : 1630851000754,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "d18b41a4e27ea247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630850802873,
+        "stop" : 1630850803130,
+        "duration" : 257
+      }
+    }, {
+      "uid" : "c981a08d00131845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630850412669,
+        "stop" : 1630850414592,
+        "duration" : 1923
+      }
+    }, {
+      "uid" : "55a49f90f843e878",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1630850009156,
+        "stop" : 1630850009293,
+        "duration" : 137
+      }
+    }, {
+      "uid" : "e98fad1fd0da5420",
+      "status" : "failed",
+      "statusDetails" : "Home page header is invalid: expected true to equal false      \n                      actual expected\n                      \n                      truefalse\n                      ",
+      "time" : {
+        "start" : 1630848405798,
+        "stop" : 1630848405994,
+        "duration" : 196
+      }
+    }, {
+      "uid" : "48bc360736c10d1b",
+      "status" : "broken",
+      "statusDetails" : "element (\"//td[contains(text(),'CRMPRO')]\") still not enabled after 30000ms",
+      "time" : {
+        "start" : 1630847362212,
+        "stop" : 1630847392317,
+        "duration" : 30105
+      }
+    }, {
+      "uid" : "f5223ae61e8a9963",
+      "status" : "broken",
+      "statusDetails" : "element (\"//td[contains(text(),'CRMPRO')]\") still not enabled after 10000ms",
+      "time" : {
+        "start" : 1630847194739,
+        "stop" : 1630847204834,
+        "duration" : 10095
+      }
+    }, {
+      "uid" : "d9d84891ea00fa59",
+      "status" : "broken",
+      "statusDetails" : "element (\"//td[contains(text(),'CRMPRO')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630847018536,
+        "stop" : 1630847028703,
+        "duration" : 10167
+      }
+    }, {
+      "uid" : "a66c16665d0cf1f2",
+      "status" : "broken",
+      "statusDetails" : "this.header.doisEnabled is not a function",
+      "time" : {
+        "start" : 1630845156774,
+        "stop" : 1630845156881,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "87b07a1e6d28a372",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//td[contains(text(),'CRMPRO')]\" because element wasn't found",
+      "time" : {
+        "start" : 1630844343850,
+        "stop" : 1630844353956,
+        "duration" : 10106
+      }
+    }, {
+      "uid" : "f533153092dc9f84",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//td[@class='logo_text']\" because element wasn't found",
+      "time" : {
+        "start" : 1630838891204,
+        "stop" : 1630838901278,
+        "duration" : 10074
+      }
+    }, {
+      "uid" : "490305194812d428",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//td[@class='logo_text']\" because element wasn't found",
+      "time" : {
+        "start" : 1630838839134,
+        "stop" : 1630838849207,
+        "duration" : 10073
+      }
+    }, {
+      "uid" : "5c5642f01914208f",
+      "status" : "broken",
+      "statusDetails" : "element (\"//td[@class='logo_text']\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630838738985,
+        "stop" : 1630838749101,
+        "duration" : 10116
+      }
+    }, {
+      "uid" : "6e321ba60c010255",
+      "status" : "broken",
+      "statusDetails" : "element (\"td.logo_text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630838438588,
+        "stop" : 1630838448775,
+        "duration" : 10187
+      }
+    }, {
+      "uid" : "fe8940d7f203ed44",
+      "status" : "broken",
+      "statusDetails" : "element (\"td.logo_text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630837385628,
+        "stop" : 1630837395693,
+        "duration" : 10065
+      }
+    }, {
+      "uid" : "d20f6d985c0bd4c0",
+      "status" : "broken",
+      "statusDetails" : "element (\"td.logo_text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1630836474620,
+        "stop" : 1630836484766,
+        "duration" : 10146
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee1b71faaced12a9.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

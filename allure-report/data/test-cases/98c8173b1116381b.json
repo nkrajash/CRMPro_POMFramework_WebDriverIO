@@ -1,0 +1,92 @@
+{
+  "uid" : "98c8173b1116381b",
+  "name" : "click on Tasks Link",
+  "fullName" : "CRMPro Home page feature tests.click on Tasks Link",
+  "historyId" : "2e8ce0a28847759c302caebd8da1144b",
+  "time" : {
+    "start" : 1630850813570,
+    "stop" : 1630850813705,
+    "duration" : 135
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such frame\n                  (Session info: chrome=93.0.4577.63)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x0043A2D3+2663123]\n                \tOrdinal0 [0x003CA491+2204817]\n                \tOrdinal0 [0x002B1FE0+1056736]\n                \tOrdinal0 [0x002B5243+1069635]\n                \tOrdinal0 [0x00305FBA+1400762]\n                \tOrdinal0 [0x002F59D3+1333715]\n                \tOrdinal0 [0x00304D8F+1396111]\n                \tOrdinal0 [0x002F589B+1333403]\n                \tOrdinal0 [0x002D1F74+1187700]\n                \tOrdinal0 [0x002D2DC9+1191369]\n                \tGetHandleVerifier [0x005D30D6+1610054]\n                \tGetHandleVerifier [0x0067B53B+2299307]\n                \tGetHandleVerifier [0x004C8DA9+519705]\n                \tGetHandleVerifier [0x004C7759+513993]\n                \tOrdinal0 [0x003D112D+2232621]\n                \tOrdinal0 [0x003D55F8+2250232]\n                \tOrdinal0 [0x003D5732+2250546]\n                \tOrdinal0 [0x003DE591+2286993]\n                \tBaseThreadInitThunk [0x7652FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at elementUtil.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\utils\\elementUtil.js:27:17)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\home.test.js:47:21)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such frame\n                  (Session info: chrome=93.0.4577.63)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x0043A2D3+2663123]\n                \tOrdinal0 [0x003CA491+2204817]\n                \tOrdinal0 [0x002B1FE0+1056736]\n                \tOrdinal0 [0x002B5243+1069635]\n                \tOrdinal0 [0x00305FBA+1400762]\n                \tOrdinal0 [0x002F59D3+1333715]\n                \tOrdinal0 [0x00304D8F+1396111]\n                \tOrdinal0 [0x002F589B+1333403]\n                \tOrdinal0 [0x002D1F74+1187700]\n                \tOrdinal0 [0x002D2DC9+1191369]\n                \tGetHandleVerifier [0x005D30D6+1610054]\n                \tGetHandleVerifier [0x0067B53B+2299307]\n                \tGetHandleVerifier [0x004C8DA9+519705]\n                \tGetHandleVerifier [0x004C7759+513993]\n                \tOrdinal0 [0x003D112D+2232621]\n                \tOrdinal0 [0x003D55F8+2250232]\n                \tOrdinal0 [0x003D5732+2250546]\n                \tOrdinal0 [0x003DE591+2286993]\n                \tBaseThreadInitThunk [0x7652FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at elementUtil.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\utils\\elementUtil.js:27:17)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\home.test.js:47:21)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630850813572,
+        "stop" : 1630850813705,
+        "duration" : 133
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x0043A2D3+2663123]\n                \tOrdinal0 [0x003CA491+2204817]\n                \tOrdinal0 [0x002B1FE0+1056736]\n                \tOrdinal0 [0x002B5243+1069635]\n                \tOrdinal0 [0x00305FBA+1400762]\n                \tOrdinal0 [0x002F59D3+1333715]\n                \tOrdinal0 [0x00304D8F+1396111]\n                \tOrdinal0 [0x002F589B+1333403]\n                \tOrdinal0 [0x002D1F74+1187700]\n                \tOrdinal0 [0x002D2DC9+1191369]\n                \tGetHandleVerifier [0x005D30D6+1610054]\n                \tGetHandleVerifier [0x0067B53B+2299307]\n                \tGetHandleVerifier [0x004C8DA9+519705]\n                \tGetHandleVerifier [0x004C7759+513993]\n                \tOrdinal0 [0x003D112D+2232621]\n                \tOrdinal0 [0x003D55F8+2250232]\n                \tOrdinal0 [0x003D5732+2250546]\n                \tOrdinal0 [0x003DE591+2286993]\n                \tBaseThreadInitThunk [0x7652FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A7E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77B27A4E+238]\n                    at Browser.runCommandWithHooks (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\utils\\build\\shim.js:239:24)\n                    at elementUtil.doswitchFrame (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\utils\\elementUtil.js:27:17)\n                    at Context.<anonymous> (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\test\\specs\\home.test.js:47:21)\n                    at Context.executeSync (E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\Data\\WebDriverIO\\WebDriverIO_POMFramework_CRMPro\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2860e0b7769ec56",
+        "name" : "Request",
+        "source" : "c2860e0b7769ec56.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Tasks Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98c8173b1116381b.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

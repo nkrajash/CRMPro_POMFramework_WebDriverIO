@@ -1,0 +1,48 @@
+{
+  "uid" : "7f1d4a0f2fbf5c5",
+  "name" : "click on Deals Link",
+  "fullName" : "CRMPro Home page feature tests.click on Deals Link",
+  "historyId" : "3bd1f6852c0e2475fc3b7d40e2d02369",
+  "time" : {
+    "start" : 1630851412504,
+    "stop" : 1630851412504,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on Deals Link"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Home page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f1d4a0f2fbf5c5.json",
+  "parameterValues" : [ ]
+}

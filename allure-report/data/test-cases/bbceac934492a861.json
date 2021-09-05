@@ -1,0 +1,602 @@
+{
+  "uid" : "bbceac934492a861",
+  "name" : "verify login with valid credentials",
+  "fullName" : "CRMPro Login page feature tests.verify login with valid credentials",
+  "historyId" : "b3ae0c36ed4d3a0a61e0c4d40466e7bf",
+  "time" : {
+    "start" : 1630855548940,
+    "stop" : 1630855563170,
+    "duration" : 14230
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1630855548942,
+        "stop" : 1630855549826,
+        "duration" : 884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "574236033e039f93",
+        "name" : "Response",
+        "source" : "574236033e039f93.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/cookie",
+      "time" : {
+        "start" : 1630855549827,
+        "stop" : 1630855549856,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855549858,
+        "stop" : 1630855550129,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45f2e84524a03f14",
+        "name" : "Request",
+        "source" : "45f2e84524a03f14.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "851e494ec6ca40b0",
+        "name" : "Response",
+        "source" : "851e494ec6ca40b0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855550135,
+        "stop" : 1630855550801,
+        "duration" : 666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7cd3cd5acabb146",
+        "name" : "Request",
+        "source" : "e7cd3cd5acabb146.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "ad339fcf1db6553a",
+        "name" : "Response",
+        "source" : "ad339fcf1db6553a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/6db7367b-88d6-4d7c-ae0f-88f36775e6f6/clear",
+      "time" : {
+        "start" : 1630855550803,
+        "stop" : 1630855552095,
+        "duration" : 1292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/6db7367b-88d6-4d7c-ae0f-88f36775e6f6/value",
+      "time" : {
+        "start" : 1630855552216,
+        "stop" : 1630855553666,
+        "duration" : 1450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4ad04b99ef8abe0",
+        "name" : "Request",
+        "source" : "a4ad04b99ef8abe0.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855553667,
+        "stop" : 1630855556037,
+        "duration" : 2370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3084ddc58ef320b7",
+        "name" : "Request",
+        "source" : "3084ddc58ef320b7.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "b660fe1b7d5d570",
+        "name" : "Response",
+        "source" : "b660fe1b7d5d570.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855556044,
+        "stop" : 1630855556115,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ca197c068a1f9c7",
+        "name" : "Request",
+        "source" : "2ca197c068a1f9c7.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "977149a0448783f4",
+        "name" : "Response",
+        "source" : "977149a0448783f4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/5bc17fe4-cb7b-4ede-9e84-c1e01d6b9c82/clear",
+      "time" : {
+        "start" : 1630855556115,
+        "stop" : 1630855556235,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/5bc17fe4-cb7b-4ede-9e84-c1e01d6b9c82/value",
+      "time" : {
+        "start" : 1630855556239,
+        "stop" : 1630855556526,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca02168779ef7748",
+        "name" : "Request",
+        "source" : "ca02168779ef7748.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855556529,
+        "stop" : 1630855556560,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee7260aeaf26ecb6",
+        "name" : "Request",
+        "source" : "ee7260aeaf26ecb6.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "3959774c8d997c5b",
+        "name" : "Response",
+        "source" : "3959774c8d997c5b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855556565,
+        "stop" : 1630855556582,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "352b18e19378fa90",
+        "name" : "Request",
+        "source" : "352b18e19378fa90.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "3b0053083daf6bc6",
+        "name" : "Response",
+        "source" : "3b0053083daf6bc6.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/372e5edf-34df-4b80-a2a9-755d1b14e9c5/click",
+      "time" : {
+        "start" : 1630855556583,
+        "stop" : 1630855563170,
+        "duration" : 6587
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cdc7f32725a858d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853585279,
+        "stop" : 1630853592516,
+        "duration" : 7237
+      }
+    }, {
+      "uid" : "266e8cb7926a39bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630852316335,
+        "stop" : 1630852325849,
+        "duration" : 9514
+      }
+    }, {
+      "uid" : "22770b291421253d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630852241364,
+        "stop" : 1630852250028,
+        "duration" : 8664
+      }
+    }, {
+      "uid" : "b01db21583e02c9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630835227734,
+        "stop" : 1630835255565,
+        "duration" : 27831
+      }
+    }, {
+      "uid" : "6e3314f4a28bd5d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790742685,
+        "stop" : 1630790753324,
+        "duration" : 10639
+      }
+    }, {
+      "uid" : "279334a2495374c1",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630790677136,
+        "stop" : 1630790702434,
+        "duration" : 25298
+      }
+    }, {
+      "uid" : "3a093e072bd70a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790606409,
+        "stop" : 1630790620323,
+        "duration" : 13914
+      }
+    }, {
+      "uid" : "42069f4b23d517a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790425692,
+        "stop" : 1630790434602,
+        "duration" : 8910
+      }
+    }, {
+      "uid" : "bf4dfe50189fdcba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790324875,
+        "stop" : 1630790344439,
+        "duration" : 19564
+      }
+    }, {
+      "uid" : "3234cc1a9bb50436",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630790252712,
+        "stop" : 1630790281282,
+        "duration" : 28570
+      }
+    }, {
+      "uid" : "46d6c83c4edaa04f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630790167462,
+        "stop" : 1630790190933,
+        "duration" : 23471
+      }
+    }, {
+      "uid" : "d4e4c0cab44f576c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630788879225,
+        "stop" : 1630788888234,
+        "duration" : 9009
+      }
+    }, {
+      "uid" : "c99413f6f7a0215a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630788455917,
+        "stop" : 1630788467588,
+        "duration" : 11671
+      }
+    }, {
+      "uid" : "104e460ab931dafa",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630788358266,
+        "stop" : 1630788373275,
+        "duration" : 15009
+      }
+    }, {
+      "uid" : "167c44303b225bcd",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630788226270,
+        "stop" : 1630788241289,
+        "duration" : 15019
+      }
+    }, {
+      "uid" : "7471c0b5103deae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787980224,
+        "stop" : 1630787980791,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "a86fdb8bc3dfe90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787941926,
+        "stop" : 1630787941949,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "4bc7c7349c628ce4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787689717,
+        "stop" : 1630787689737,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "32839ae8572d761e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787585617,
+        "stop" : 1630787600084,
+        "duration" : 14467
+      }
+    }, {
+      "uid" : "89c741f6b1903e9a",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787499038,
+        "stop" : 1630787499099,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "a8f8156cbb549a69",
+      "status" : "failed",
+      "statusDetails" : "title not found: expected 'CRMPRO - CRM software for customer relationship management, sales, and support.' to equal undefined      \n                      actual expected\n                      \n                      'CRMPRO - CRM software for customer relationship management, sales, and support.'undefined\n                      ",
+      "time" : {
+        "start" : 1630787444408,
+        "stop" : 1630787444469,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "a0c7df93f4600645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787364197,
+        "stop" : 1630787378647,
+        "duration" : 14450
+      }
+    }, {
+      "uid" : "4c2294b884c5bd8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787121733,
+        "stop" : 1630787136285,
+        "duration" : 14552
+      }
+    }, {
+      "uid" : "f326dcdebf9bb98c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630787035200,
+        "stop" : 1630787046259,
+        "duration" : 11059
+      }
+    }, {
+      "uid" : "6572189159504eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630786998015,
+        "stop" : 1630787007442,
+        "duration" : 9427
+      }
+    }, {
+      "uid" : "6d15c08f5f7fb18a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630786695679,
+        "stop" : 1630786705933,
+        "duration" : 10254
+      }
+    }, {
+      "uid" : "4d231ec01011fecc",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630786334422,
+        "stop" : 1630786357522,
+        "duration" : 23100
+      }
+    }, {
+      "uid" : "c56e355b2ce61321",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630786168719,
+        "stop" : 1630786189930,
+        "duration" : 21211
+      }
+    }, {
+      "uid" : "91ff4e3ba5b1f0d6",
+      "status" : "broken",
+      "statusDetails" : "The title is not displayed after the given time...",
+      "time" : {
+        "start" : 1630786015215,
+        "stop" : 1630786034851,
+        "duration" : 19636
+      }
+    }, {
+      "uid" : "6d0d866e6c9df79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630785708026,
+        "stop" : 1630785730803,
+        "duration" : 22777
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbceac934492a861.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

@@ -1,0 +1,198 @@
+{
+  "uid" : "ba83f816be74a1e7",
+  "name" : "click on log out",
+  "fullName" : "CRMPro Login page feature tests.click on log out",
+  "historyId" : "159797e8cc624b0562cbe1d45de92474",
+  "time" : {
+    "start" : 1630855563171,
+    "stop" : 1630855568983,
+    "duration" : 5812
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1630855563173,
+        "stop" : 1630855563203,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec43a12d638b518a",
+        "name" : "Request",
+        "source" : "ec43a12d638b518a.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1630855563204,
+        "stop" : 1630855563302,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2a4603031be586b",
+        "name" : "Request",
+        "source" : "d2a4603031be586b.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "75cea80d0d87c4e4",
+        "name" : "Response",
+        "source" : "75cea80d0d87c4e4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1630855563310,
+        "stop" : 1630855563323,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7274bd4f010a4d8f",
+        "name" : "Request",
+        "source" : "7274bd4f010a4d8f.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "d35ee73aa7bebd0e",
+        "name" : "Response",
+        "source" : "d35ee73aa7bebd0e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/93a41404-c104-423b-8d1d-11d99a004d60/click",
+      "time" : {
+        "start" : 1630855563324,
+        "stop" : 1630855565199,
+        "duration" : 1875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/frame/parent",
+      "time" : {
+        "start" : 1630855565199,
+        "stop" : 1630855568983,
+        "duration" : 3784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on log out"
+  }, {
+    "name" : "package",
+    "value" : "CRMPro Login page feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d8e7d269ccd4badd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630853592517,
+        "stop" : 1630853599582,
+        "duration" : 7065
+      }
+    }, {
+      "uid" : "f8503d38520ed6b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630852325850,
+        "stop" : 1630852330263,
+        "duration" : 4413
+      }
+    }, {
+      "uid" : "22d8c10f1c6e4aa1",
+      "status" : "broken",
+      "statusDetails" : "elementUtil is not defined",
+      "time" : {
+        "start" : 1630852250028,
+        "stop" : 1630852250133,
+        "duration" : 105
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba83f816be74a1e7.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}
