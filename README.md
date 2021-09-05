@@ -28,12 +28,13 @@ $npm install @wdio/cli
 	
 	Where should your tests be launched? local
 	
-	Where is your automation backend located?Select >On my local machine
+	Where is your automation backend located?Select 
+		>On my local machine
 		>On my local machine
 		>In the cloud using sauce labs 
 		>In the cloud using BrowserStack or TestingBot or a different service
 		>I have my own Selenium cloud
-		>
+		
 	Which automation framework do you want to use?Select >Mocha
 		>Mocha
 		>Jasmine
@@ -43,8 +44,7 @@ $npm install @wdio/cli
 		>sync
 		>async
 		
-	Where are your test specs located?Select (./test/specs/**/*.js)
-		>(./test/specs/**/*.js)
+	Where are your test specs located?Select (./test/specs/**/*.js) 
 		
 	Which reporter do you want to use?(Press <space> to select, <a> to toggle all, <i> to invert selection)Select spec
 		>spec
