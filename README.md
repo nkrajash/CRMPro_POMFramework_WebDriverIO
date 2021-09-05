@@ -17,9 +17,10 @@ Installation Instructions:
 6. Importance of package.json in Node projects
 7. Install WebDriver CLI Dependencies:
 8. Run using cmd prompt to install WebDriverIO dependencies:
-    $npm install webdriverio --save-dev
-	or using the single command:
-	$npm install @wdio/cli
+$npm install webdriverio --save-dev
+or using the single command:
+$npm install @wdio/cli
+	
 9. Generate Configuration File to store WebDriver IO Settings(Below cmd has wdio -> WebDriverIO installed in node_modules directory
 	TestRunner y -> default settings)
 	$npx wdio config -y
@@ -91,6 +92,7 @@ Installation Instructions:
 	VS Code Intellisense: Visual Studio Code usually has type support automatically integrated and there is no action needed.
 	Go to automcompletion WebDriverIO page: https://webdriver.io/docs/autocompletion/:
 	Create a jsconfig.json in your project root and refer to used wdio packages
+	
 	Sync mode with Mocha framework:
 	{
 		"compilerOptions": {
@@ -107,6 +109,7 @@ Installation Instructions:
 			"node_modules/@wdio/mocha-framework"
 		]
 	}
+	
 
 10. Create Mocha Spec/Test file to write first Automation Program:
     Note: add "@wdio/sync" : "7.6.0" to the package.json file in the project path, to include the same:
@@ -133,32 +136,32 @@ Installation Instructions:
 	}
 
 11.Run the test with WebDriver TestRunner
-	To run the tests, execute the configuration file created as:
-	$npx wdio run wdio.conf.js
+To run the tests, execute the configuration file created as:
+$npx wdio run wdio.conf.js
 
-	Mocha -> JavaScript Test framework written in Node.js:
-	Mocha test Spec file keywords:
-	describe: Similar to Test suite 
-	it:Similar to Test case
+Mocha -> JavaScript Test framework written in Node.js:
+Mocha test Spec file keywords:
+describe: Similar to Test suite 
+it:Similar to Test case
 
 12.Install chai-webdriverio library:
-	$npm install chai-webdriverio --save-dev
+$npm install chai-webdriverio --save-dev
 
-	Install chai library:
-	$npm install chai --save-dev
-	or can be installed using:
-	$npm i --save-dev chai
-	The above ways can be used to install any library in WebDriverIO
+Install chai library:
+$npm install chai --save-dev
+or can be installed using:
+$npm i --save-dev chai
+The above ways can be used to install any library in WebDriverIO
 
 13.Install Allure reports:
-	$npm install @wdio/allure-reporter --save-dev
-	Configure the o/p directory in your wdio.conf.js file.
+$npm install @wdio/allure-reporter --save-dev
+Configure the o/p directory in your wdio.conf.js file.
 
 14.Install Allure command Line:
-	$npm install -g allure-commandline --save-dev
+$npm install -g allure-commandline --save-dev
 	
-	Run the wdio.config.js in the cmd prompt.Check the allure reports using:
-	allure generate && allure open
+Run the wdio.config.js in the cmd prompt.Check the allure reports using:
+allure generate && allure open
 
 Note:
 In wdio.conf.js file:
