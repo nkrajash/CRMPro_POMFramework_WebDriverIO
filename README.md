@@ -7,8 +7,10 @@ It includes examples of the PageObject Model for using WebdriverIO for web brows
 Installation Instructions:
 
 1. Install Node.js: www.nodejs.org/en/download:
+
    Check the version using $node -v to check the latest node version installed.
    Also look for npm using $npm -v to check the latest npm version installed.
+  
 2. Set Node home path in System variables(NODE_HOME)
 3. Create new NPM project: $npm init --> In a folder where project needs to be created.
    Answer the questions to create package.json file having basic configuration information.
@@ -25,91 +27,6 @@ $npm install @wdio/cli
 	TestRunner y -> default settings)
 	$npx wdio config -y
 	Certain questions will be asked like under WDIO Configuration Helper(without -y option):
-	
-	Where should your tests be launched? local
-	
-	Where is your automation backend located?Select 
-		>On my local machine
-		>On my local machine
-		>In the cloud using sauce labs 
-		>In the cloud using BrowserStack or TestingBot or a different service
-		>I have my own Selenium cloud
-		
-	Which automation framework do you want to use?Select >Mocha
-		>Mocha
-		>Jasmine
-		>Cucumber
-
-	Do you want to run WDIO Commands synchronous or asynchronous?Select >sync
-		>sync
-		>async
-		
-	Where are your test specs located?Select (./test/specs/**/*.js) 
-		
-	Which reporter do you want to use?(Press <space> to select, <a> to toggle all, <i> to invert selection)Select spec
-		>spec
-		>dot
-		>junit
-		>allure
-		>sumologic
-		>concise
-		>reportportal
-		>video
-		>json
-		>cucumber
-		>mochawesome
-		>timeline
-		>html
-		>markdown
-		(Move up and doen to reveal more choices)
-	
-	
-	Do you want to add a service to your test setup?(Press <space> to select, <a> to toggle all, <i> to invert selection)Select chromedriver
-		>chromedriver
-		>sauce
-		>testingbot
-		>selenium-standalone
-		>devtools
-		>applitools
-		>browserstack
-		>crossbrowsertesting
-		>zafira-listener
-		>reportportal
-		>docker
-		>wiremock
-		>slack
-		(Move up and doen to reveal more choices)
-	
-	Whats your base Url?(http://localhost)
-	or write a sepcific URL like https://www.app.hubspot.com/login 
-	
-    Do you want to use a compiler? No!
-
-    Do you want WebdriverIO to autogenerate some test files? Yes
-	
-    Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? No
-
-	VS Code Intellisense: Visual Studio Code usually has type support automatically integrated and there is no action needed.
-	Go to automcompletion WebDriverIO page: https://webdriver.io/docs/autocompletion/:
-	Create a jsconfig.json in your project root and refer to used wdio packages
-	
-	Sync mode with Mocha framework:
-	{
-		"compilerOptions": {
-			"types": [
-				"node",
-				"webdriverio/sync",
-				"@wdio/mocha-framework"
-			]
-		},
-		"include" :[
-			"test/specs/*.js",
-			"**/*.json",
-			"node_modules/@wdio/sync",
-			"node_modules/@wdio/mocha-framework"
-		]
-	}
-	
 
 10. Create Mocha Spec/Test file to write first Automation Program:
     Note: add "@wdio/sync" : "7.6.0" to the package.json file in the project path, to include the same:
