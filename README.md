@@ -24,21 +24,27 @@ Installation Instructions:
 	TestRunner y -> default settings)
 	$npx wdio config -y
 	Certain questions will be asked like under WDIO Configuration Helper(without -y option):
+	
 	Where should your tests be launched? local
+	
 	Where is your automation backend located?Select >On my local machine
 		>On my local machine
 		>In the cloud using sauce labs 
 		>In the cloud using BrowserStack or TestingBot or a different service
 		>I have my own Selenium cloud
+		>
 	Which automation framework do you want to use?Select >Mocha
 		>Mocha
 		>Jasmine
 		>Cucumber
+
 	Do you want to run WDIO Commands synchronous or asynchronous?Select >sync
 		>sync
 		>async
+		
 	Where are your test specs located?Select (./test/specs/**/*.js)
 		>(./test/specs/**/*.js)
+		
 	Which reporter do you want to use?(Press <space> to select, <a> to toggle all, <i> to invert selection)Select spec
 		>spec
 		>dot
@@ -55,6 +61,8 @@ Installation Instructions:
 		>html
 		>markdown
 		(Move up and doen to reveal more choices)
+	
+	
 	Do you want to add a service to your test setup?(Press <space> to select, <a> to toggle all, <i> to invert selection)Select chromedriver
 		>chromedriver
 		>sauce
@@ -70,10 +78,14 @@ Installation Instructions:
 		>wiremock
 		>slack
 		(Move up and doen to reveal more choices)
+	
 	Whats your base Url?(http://localhost)
 	or write a sepcific URL like https://www.app.hubspot.com/login 
+	
     Do you want to use a compiler? No!
+
     Do you want WebdriverIO to autogenerate some test files? Yes
+	
     Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? No
 
 	VS Code Intellisense: Visual Studio Code usually has type support automatically integrated and there is no action needed.
@@ -144,10 +156,9 @@ Installation Instructions:
 
 14.Install Allure command Line:
 	$npm install -g allure-commandline --save-dev
-
+	
 	Run the wdio.config.js in the cmd prompt.Check the allure reports using:
 	allure generate && allure open
-
 
 Note:
 In wdio.conf.js file:
